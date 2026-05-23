@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(36, 101, 205);
+  color: white;
+  padding: 10px;
+  position: sticky;
+  z-index: 100;
+}
+
+.nav-kiri {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-kanan {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.nav-kanan li a {
+  text-decoration: none;
+  color: white;
+}
+
+.home {
+  display: flex;
+  background-color: rgb(136, 203, 251);
+  color: white;
+}
+
+.home-kiri {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.home-kanan {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.foto {
+  display: flex;
+  width: 250px;
+  height: auto;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  color: white;
+  padding: 10px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.about a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+  background-color: white;
+  color: #5d87ff;
+
+  border: 1px solid white;
+}
+
+.about a:hover {
+  background: transparent;
+  color: white;
+}
